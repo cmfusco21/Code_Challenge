@@ -9,33 +9,37 @@
 /* Begin PBXBuildFile section */
 		2ED8C7B42802833200D83417 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8C7B32802833200D83417 /* AppDelegate.swift */; };
 		2ED8C7B62802833200D83417 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8C7B52802833200D83417 /* SceneDelegate.swift */; };
-		2ED8C7B82802833200D83417 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8C7B72802833200D83417 /* ViewController.swift */; };
+		2ED8C7B82802833200D83417 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8C7B72802833200D83417 /* QuestionViewController.swift */; };
 		2ED8C7BB2802833200D83417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED8C7B92802833200D83417 /* Main.storyboard */; };
 		2ED8C7BD2802833300D83417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED8C7BC2802833300D83417 /* Assets.xcassets */; };
 		2ED8C7C02802833300D83417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED8C7BE2802833300D83417 /* LaunchScreen.storyboard */; };
-		2ED8C7CA28028AB800D83417 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8C7C928028AB800D83417 /* QuestionViewController.swift */; };
+		2ED8C7CA28028AB800D83417 /* AnswersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8C7C928028AB800D83417 /* AnswersViewController.swift */; };
 		2ED8C7CC28028AFC00D83417 /* QuestionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8C7CB28028AFC00D83417 /* QuestionsManager.swift */; };
 		2ED8C7CE28029F9B00D83417 /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8C7CD28029F9B00D83417 /* QuestionData.swift */; };
 		2ED8C7D02803B0D400D83417 /* AnswersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8C7CF2803B0D400D83417 /* AnswersData.swift */; };
-		2ED8C7D22803B0FB00D83417 /* AnswersDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8C7D12803B0FB00D83417 /* AnswersDelegate.swift */; };
+		2ED8C7D22803B0FB00D83417 /* AnswersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8C7D12803B0FB00D83417 /* AnswersManager.swift */; };
 		2ED8C7D42803DA4400D83417 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8C7D32803DA4400D83417 /* QuestionTableViewCell.swift */; };
+		2ED8C7D628048AA900D83417 /* AnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8C7D528048AA900D83417 /* AnswerTableViewCell.swift */; };
+		2ED8C7D92804A2A200D83417 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 2ED8C7D82804A2A200D83417 /* Realm */; };
+		2ED8C7DB2804A2A200D83417 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2ED8C7DA2804A2A200D83417 /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2ED8C7B02802833200D83417 /* CodeChallange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeChallange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED8C7B32802833200D83417 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ED8C7B52802833200D83417 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2ED8C7B72802833200D83417 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2ED8C7B72802833200D83417 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		2ED8C7BA2802833200D83417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2ED8C7BC2802833300D83417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ED8C7BF2802833300D83417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2ED8C7C12802833300D83417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2ED8C7C928028AB800D83417 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		2ED8C7C928028AB800D83417 /* AnswersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersViewController.swift; sourceTree = "<group>"; };
 		2ED8C7CB28028AFC00D83417 /* QuestionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsManager.swift; sourceTree = "<group>"; };
 		2ED8C7CD28029F9B00D83417 /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
 		2ED8C7CF2803B0D400D83417 /* AnswersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersData.swift; sourceTree = "<group>"; };
-		2ED8C7D12803B0FB00D83417 /* AnswersDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersDelegate.swift; sourceTree = "<group>"; };
+		2ED8C7D12803B0FB00D83417 /* AnswersManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersManager.swift; sourceTree = "<group>"; };
 		2ED8C7D32803DA4400D83417 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
+		2ED8C7D528048AA900D83417 /* AnswerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ED8C7DB2804A2A200D83417 /* RealmSwift in Frameworks */,
+				2ED8C7D92804A2A200D83417 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,10 +75,10 @@
 			isa = PBXGroup;
 			children = (
 				2ED8C7C8280283DF00D83417 /* Model */,
-				2ED8C7C7280283D400D83417 /* View */,
+				2ED8C7DE2804C7D900D83417 /* View */,
+				2ED8C7C7280283D400D83417 /* Controller */,
 				2ED8C7B32802833200D83417 /* AppDelegate.swift */,
 				2ED8C7B52802833200D83417 /* SceneDelegate.swift */,
-				2ED8C7B92802833200D83417 /* Main.storyboard */,
 				2ED8C7BC2802833300D83417 /* Assets.xcassets */,
 				2ED8C7BE2802833300D83417 /* LaunchScreen.storyboard */,
 				2ED8C7C12802833300D83417 /* Info.plist */,
@@ -80,14 +86,15 @@
 			path = CodeChallange;
 			sourceTree = "<group>";
 		};
-		2ED8C7C7280283D400D83417 /* View */ = {
+		2ED8C7C7280283D400D83417 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2ED8C7B72802833200D83417 /* ViewController.swift */,
-				2ED8C7C928028AB800D83417 /* QuestionViewController.swift */,
+				2ED8C7B72802833200D83417 /* QuestionViewController.swift */,
 				2ED8C7D32803DA4400D83417 /* QuestionTableViewCell.swift */,
+				2ED8C7C928028AB800D83417 /* AnswersViewController.swift */,
+				2ED8C7D528048AA900D83417 /* AnswerTableViewCell.swift */,
 			);
-			path = View;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		2ED8C7C8280283DF00D83417 /* Model */ = {
@@ -95,10 +102,18 @@
 			children = (
 				2ED8C7CB28028AFC00D83417 /* QuestionsManager.swift */,
 				2ED8C7CD28029F9B00D83417 /* QuestionData.swift */,
-				2ED8C7D12803B0FB00D83417 /* AnswersDelegate.swift */,
+				2ED8C7D12803B0FB00D83417 /* AnswersManager.swift */,
 				2ED8C7CF2803B0D400D83417 /* AnswersData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2ED8C7DE2804C7D900D83417 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2ED8C7B92802833200D83417 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +132,10 @@
 			dependencies = (
 			);
 			name = CodeChallange;
+			packageProductDependencies = (
+				2ED8C7D82804A2A200D83417 /* Realm */,
+				2ED8C7DA2804A2A200D83417 /* RealmSwift */,
+			);
 			productName = CodeChallange;
 			productReference = 2ED8C7B02802833200D83417 /* CodeChallange.app */;
 			productType = "com.apple.product-type.application";
@@ -145,6 +164,9 @@
 				Base,
 			);
 			mainGroup = 2ED8C7A72802833200D83417;
+			packageReferences = (
+				2ED8C7D72804A2A200D83417 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 2ED8C7B12802833200D83417 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -172,14 +194,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ED8C7B82802833200D83417 /* ViewController.swift in Sources */,
+				2ED8C7B82802833200D83417 /* QuestionViewController.swift in Sources */,
 				2ED8C7CC28028AFC00D83417 /* QuestionsManager.swift in Sources */,
 				2ED8C7B42802833200D83417 /* AppDelegate.swift in Sources */,
+				2ED8C7D628048AA900D83417 /* AnswerTableViewCell.swift in Sources */,
 				2ED8C7CE28029F9B00D83417 /* QuestionData.swift in Sources */,
-				2ED8C7CA28028AB800D83417 /* QuestionViewController.swift in Sources */,
+				2ED8C7CA28028AB800D83417 /* AnswersViewController.swift in Sources */,
 				2ED8C7D02803B0D400D83417 /* AnswersData.swift in Sources */,
 				2ED8C7D42803DA4400D83417 /* QuestionTableViewCell.swift in Sources */,
-				2ED8C7D22803B0FB00D83417 /* AnswersDelegate.swift in Sources */,
+				2ED8C7D22803B0FB00D83417 /* AnswersManager.swift in Sources */,
 				2ED8C7B62802833200D83417 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +421,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2ED8C7D72804A2A200D83417 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2ED8C7D82804A2A200D83417 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ED8C7D72804A2A200D83417 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		2ED8C7DA2804A2A200D83417 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ED8C7D72804A2A200D83417 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2ED8C7A82802833200D83417 /* Project object */;
 }
