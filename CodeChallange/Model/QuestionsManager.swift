@@ -45,9 +45,8 @@ class QuestionsManager {
                 } catch {
                     print(error)
                 }
-                
             }
-            
+
             task.resume()
         } else {
             print("Failed to create URL")

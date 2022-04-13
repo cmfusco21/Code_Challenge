@@ -10,8 +10,7 @@ import RealmSwift
 
 struct QuestionsResponse: Codable {
     let items: [QuestionData]
-    let quota_remaining: Int
-    
+    let quota_remaining: Int    
 }
 
 struct QuestionData: Codable {

@@ -9,7 +9,6 @@ import UIKit
 
 class AnswerTableViewCell: UITableViewCell {
 
-    
     private let label = UILabel(frame: .zero)
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
